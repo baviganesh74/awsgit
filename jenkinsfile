@@ -8,5 +8,12 @@ pipeline {
         }
       }
     }
+    stage ('Stage2') {
+      steps {
+        script {
+          sh "echo Hi I am from Stage 2"
+        }
+      }
+    }
   }
 }
