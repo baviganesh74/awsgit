@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+  stages {
+    stage ('Welcome to PaC') {
+      steps {
+        script {
+          sh "echo Hi Team Welcome to DVS DevOps Session"
+        }
+      }
+    }
+  }
+}
